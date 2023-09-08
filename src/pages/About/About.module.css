@@ -1,0 +1,9 @@
+.hero_section {
+  background: url("../../assets/bg3.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.about {
+  color: var(--tertiary-color);
+}

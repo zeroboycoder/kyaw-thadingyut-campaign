@@ -1,0 +1,16 @@
+:root {
+  --primary-color: #002454;
+  --secondary-color: #0047a3;
+  --tertiary-color: #f0f401;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.brands > img {
+  width: 12%;
+  padding: 0 1rem;
+}

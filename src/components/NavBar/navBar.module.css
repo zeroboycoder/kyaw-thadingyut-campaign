@@ -1,0 +1,30 @@
+.mobile_nav {
+  width: 250px;
+  height: 100vh;
+  background-color: #002454;
+  transform: translateX(250px);
+  transition: all 0.3s;
+}
+
+.mobile_nav ul li {
+  padding: 1rem 0;
+}
+
+ul li a {
+  padding-bottom: 0.5rem;
+  transition: all 0.3s;
+  border-bottom: 1px solid transparent;
+}
+
+.mobile_nav ul li a:hover,
+.mobile_nav ul li a:active {
+  border-bottom: 1px solid var(--tertiary-color);
+}
+
+.show_mobile_nav {
+  transform: translateX(0);
+}
+
+.active {
+  border-bottom: 1px solid var(--tertiary-color);
+}
